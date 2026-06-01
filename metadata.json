@@ -1,0 +1,6 @@
+{
+  "name": "EmoEma Biomedical",
+  "description": "Professional biomedical engineering, equipment maintenance, repair, calibration, and power solutions in Uganda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
