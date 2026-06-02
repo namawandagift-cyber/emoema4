@@ -94,6 +94,7 @@ export const EMOEMA_SERVICES: ServiceItem[] = [
 
 export const MEDICAL_EQUIPMENT_CATALOG: EquipmentItem[] = [
   {
+  
     id: "eq-1",
     name: "Multi-Parameter Patient Monitor EM-128",
     category: "patient-care",
@@ -111,7 +112,7 @@ export const MEDICAL_EQUIPMENT_CATALOG: EquipmentItem[] = [
       "Pediatric, infant, and adult configuration profiles"
     ],
     isFeatured: true,
-    public/images: "/src/assets/images/icu_recovery_bed_1780060181871.png"
+    image : "/images/icu_recovery_bed_1780060181871.png"
   },
   {
     id: "eq-2",
@@ -131,7 +132,7 @@ export const MEDICAL_EQUIPMENT_CATALOG: EquipmentItem[] = [
       "Infrared safety ray cuts if target threshold is exceeded"
     ],
     isFeatured: true,
-   public/images: "/src/assets/images/biomedical_hero_1780057148827.png"
+   image: "/images/biomedical_hero_1780057148827.png"
   },
   {
     id: "eq-3",
@@ -151,7 +152,7 @@ export const MEDICAL_EQUIPMENT_CATALOG: EquipmentItem[] = [
       "Highly impact-resistant field transport briefcase included"
     ],
     isFeatured: true,
-    public/images: "/src/assets/images/ultrasound_scanner_1780060146128.png"
+    image: "/images/ultrasound_scanner_1780060146128.png"
   },
   {
     id: "eq-4",
@@ -171,7 +172,7 @@ export const MEDICAL_EQUIPMENT_CATALOG: EquipmentItem[] = [
       "Easy-clean steel interior cavity supporting sanitation standards"
     ],
     isFeatured: false,
-    public/images: "/src/assets/images/calibration_details_1780057964615.png"
+    image : "/images/calibration_details_1780057964615.png"
   },
   {
     id: "eq-5",
@@ -191,7 +192,7 @@ export const MEDICAL_EQUIPMENT_CATALOG: EquipmentItem[] = [
       "Instant short-circuit and oil drop automated shutoff triggers"
     ],
     isFeatured: true,
-    public/images: "/src/assets/images/medical_generator_1780057170547.png"
+    image : "/images/medical_generator_1780057170547.png"
   },
   {
     id: "eq-6",
@@ -211,7 +212,7 @@ export const MEDICAL_EQUIPMENT_CATALOG: EquipmentItem[] = [
       "Ultra-low vibration chassis with rubber insulation dampeners"
     ],
     isFeatured: false,
-    public/images: "/src/assets/images/power_bg_light_1780057945804.png"
+    image : "/images/power_bg_light_1780057945804.png"
   }
 ];
 
