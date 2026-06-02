@@ -145,11 +145,11 @@ export default function EquipmentCatalog({ onQuoteRequested, cartItems, setCartI
                       className="bg-white border border-slate-100 rounded-2xl shadow-sm hover:shadow-md hover:border-slate-200/80 transition-all duration-300 flex flex-col justify-between overflow-hidden text-left"
                     >
                       {/* Equipment Image Header */}
-                      {item.imageSrc && (
+                      {item.image && (
                         <div className="h-44 w-full overflow-hidden bg-slate-100 relative group">
                           <div className="absolute inset-0 bg-gradient-to-t from-slate-950/20 via-transparent to-transparent opacity-70 z-10" />
                           <img
-                            src={item.imageSrc}
+                            src={item.image}
                             alt={item.name}
                             referrerPolicy="no-referrer"
                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

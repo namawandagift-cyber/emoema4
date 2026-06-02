@@ -6,6 +6,14 @@
 import React from "react";
 import { ShieldCheck, HeartPulse, Building2, MapPin, Phone, Mail, Award, Users } from "lucide-react";
 
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      [elemName: string]: any;
+    }
+  }
+}
+
 export default function AboutUs() {
   const aboutBgSrc = "/src/assets/images/calibration_details_1780057964615.png";
   const values = [
@@ -91,14 +99,17 @@ export default function AboutUs() {
           </div>
 
           {/* Location & Quick Contact card */}
-          <div 
-            className="lg:col-span-5 rounded-2xl p-6 md:p-8 flex flex-col justify-between shadow-lg relative border border-teal-200/50 overflow-hidden text-slate-800"
-            style={{
-              backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0.94), rgba(240, 253, 250, 0.96)), url(${aboutBgSrc})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center"
-            }}
-          >
+         <div
+  className="lg:col-span-5 rounded-2xl p-6 md:p-8 flex flex-col justify-between shadow-lg relative border border-teal-200/50 overflow-hidden text-slate-800"
+  style={{
+    backgroundImage: `
+      linear-gradient(to bottom, rgba(222, 154, 154, 0.94), rgba(179, 249, 233, 0.96)),
+      url('/images/hero_bg_light_1780057927875.png')
+    `,
+    backgroundSize: "cover",
+    backgroundPosition: "center"
+  }}
+>
             <div className="absolute top-0 right-0 w-32 h-32 bg-orange-500/5 rounded-full blur-2xl pointer-events-none"></div>
             
             <div className="relative z-10 space-y-6">
